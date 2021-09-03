@@ -1,0 +1,162 @@
+ul.onizamov-comments-users {
+    text-align: left;
+}
+
+.onizamov-comments.trumbowyg-editor {
+    background-color: white;
+}
+
+#onizamov-comments-section {
+    width: 850px;
+}
+
+.trumbowyg-box .trumbowyg-modal {
+    overflow-y: scroll;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+.trumbowyg-box .trumbowyg-modal, .trumbowyg-box .trumbowyg-modal-box {
+    transform: translateX(-50%);
+}
+
+.trumbowyg-modal-box {
+    width: 100% !important;
+}
+
+.fas {
+    font-size: 14px;
+}
+
+.onizamov-comments-preloader {
+    margin: auto;
+    font-size: 10px;
+    position: relative;
+    text-indent: -9999em;
+    border-top: 1.1em solid rgba(0, 0, 0, 0.2);
+    border-right: 1.1em solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1.1em solid rgba(0, 0, 0, 0.2);
+    border-left: 1.1em solid #7e1c21;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 1.1s infinite linear;
+    animation: load8 1.1s infinite linear;
+}
+
+.onizamov-comments-preloader, .onizamov-comments-preloader:after {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+}
+
+.onizamov-comments-preloader-wrapper {
+    position: fixed;
+    width: 100vw;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    height: 100vh;
+    z-index: 100;
+    top: 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.onizamov-comments-user-name {
+    cursor: pointer;
+    padding: 5px 0 5px 5%;
+}
+
+.onizamov-comments-user-name:hover {
+    background-color: #ecf0f1;
+}
+
+.onizamov-comments-mentioning, .onizamov-comments-response {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.onizamov-comments-after {
+    text-align: center;
+}
+
+.onizamov-comments-add-btn {
+    background-color: #7e1c21;
+    border-style: solid;
+    border-width: 0px 0px 0px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none !important;
+    text-overflow: ellipsis;
+    -webkit-transition: all 200ms ease-in-out 0s;
+    transition: all 200ms ease-in-out 0s;
+    white-space: nowrap;
+    font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    padding: 10px 15px 10px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.onizamov-comments-add-btn:hover, .onizamov-comments-add-btn:focus, .onizamov-comments-add-btn:active {
+    background: none repeat scroll 0 0 #d12f37 !important;
+    color: white;
+}
+
+.onizamov-comments-added-name {
+    cursor: pointer;
+}
+
+.onizamov-comments-added-btn-wrapper {
+    display: inline-block;
+    float: right;
+    width: 20px;
+    text-align: center;
+}
+
+.onizamov-comments-added-btn-wrapper i {
+    line-height: 20px;
+}
+
+.onizamov-comments-added-btn-svg {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.onizamov-comments__error_text {
+    color: red;
+}
+
+@-webkit-keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
